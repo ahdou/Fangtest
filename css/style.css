@@ -1,0 +1,85 @@
+.dg-container{
+	width: 100%;
+	background: url(../images/bglunbo.jpg) no-repeat center 0;
+	height: 570px;
+	overflow: hidden;
+	min-width: 1200px;
+	padding-top: 20px;
+	position: relative;
+}
+.dg-wrapper{
+	width: 840px;
+	height: 570px;
+	margin: 0 auto;
+	position: relative;
+	left: 0px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	
+}
+
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	width: 840px;
+
+	
+}
+
+.dg-wrapper a div{
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+
+.dg-container  span{
+	top:252px;
+	margin-top: -35px;
+	left:50%;
+	margin-left: -452px;
+	text-indent: -9000px;
+	position: absolute;
+	cursor:pointer;
+	width: 65px;
+	height: 65px;	
+	background: transparent url(../images/left.png) no-repeat center;
+}
+.dg-container  span:hover{
+	opacity: 1;
+}
+.dg-container  span.dg-next{	
+	margin-left: 387px;
+	background: transparent url(../images/right.png) no-repeat center;
+}
