@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>html5  css3微信专题页模板</title>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var iframeHeight = function () {
+				var _height = $(window).height() - 34;
+				$('#content').height(_height);
+			}
+			window.onresize = iframeHeight;
+			$(function () {
+				iframeHeight();
+			});
+		});
+	</script>
+	<div id="container" style="overflow:hidden;">
+		<iframe border="0" id="content" src="./res/index.html" frameborder="0" height="100%" width="100%" style="height: 917px;"></iframe>
+	</div>
+</body>
+</html>
