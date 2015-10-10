@@ -90,14 +90,14 @@ a:hover{
 	min-width: 1200px;
 	margin: 0 auto;
 	background: url(../images/top2.jpg) no-repeat center 0;
-	height: 209px;
+	height: 163px;
 }
 .topm4{
 	width: 100%;
 	min-width: 1200px;
 	margin: 0 auto;
 	background: url(../images/top3.jpg) no-repeat center 0;
-	height:274px;
+	height:259px;
 }
 .banner{
 	width: 100%;
@@ -127,7 +127,7 @@ a:hover{
 	padding-top: 3px;
 	overflow: hidden;
 	zoom: 1;
-	width: 120px;
+	width: 100px;
 	list-style-type: none;
 	margin: 0 auto;
 	text-align: center;
@@ -148,45 +148,45 @@ border-radius: 17px;
 }
 .box_img1{
 	background: url(../images/top5.jpg) no-repeat center 0;
-	height: 415px;
+	height: 312px;
 	width: 100%;
 	min-width: 1200px;
 
 }
 .box_img2{
 	background: url(../images/top6.jpg) no-repeat center 0;
-	height: 473px;
+	height: 386px;
 	width: 100%;
 	min-width: 1200px;
 	
 }
 .box_img3{
 	background: url(../images/top8.jpg) no-repeat center 0;
-	height: 605px;
+	height: 443px;
 	width: 100%;
 	min-width: 1200px;
 	
 }
 .box_img4{
 	background: url(../images/top9.jpg) no-repeat center 0;
-	height: 508px;
+	height: 530px;
 	width: 100%;
 	min-width: 1200px;
 	
 }
 .h1{
 	
-	height: 206px;
+	height: 169px;
 }
 .h2,.h1,.box_img5,.box_img6{
 	width: 100%;
 	min-width: 1200px;
 }
 .h2{
-	height: 253px;
+	height: 170px;
 }
 .box_img5{
-	height: 234px;
+	height: 219px;
 	background: url(../images/1.jpg) no-repeat center 0;
 }
 .box_img6{
@@ -194,7 +194,7 @@ border-radius: 17px;
 	background: url(../images/2.jpg) no-repeat center 0;
 }
 .box_i{
-	padding-bottom: 211px;
+	padding-bottom: 180px;
 	background: url(../images/bg3.jpg) no-repeat center bottom;
 }
 .section6 {
@@ -264,6 +264,7 @@ color: #ed8558;
 	height: 64px;
 	padding-bottom: 80px;
 	background: #05090e;
+	margin-bottom:70px;
 }
 .footer .com_width {
 overflow: hidden;
@@ -314,15 +315,31 @@ font-size: 18px;
 	margin-right: 36px;
 	padding-left: 78px;
 	display: block;
-	background:url(../images/sou.jpg) no-repeat 22px center;
-color: #ffd12f;
+	background:url(../images/sou.png) no-repeat 22px center;
+	color: #e4f0fd;
+	transition: 0.2s;
+	-moz-transition: 0.2s;	/* Firefox 4 */
+	-webkit-transition: 0.2s;	/* Safari 和 Chrome */
+	-o-transition: 0.2s;
+}
+.nav li.list1 a:hover,.nav li.list2 a:hover,.nav li.list4 a:hover,.nav li.list5 a:hover{
+	color: #ffd12f;
+	background-position:22px 12px;
+	text-decoration: n0ne;
+}
+.nav li.list2 a:hover{
+	color: #ffd12f;
 }
 .nav li.list2 a {
 	padding-right: 10px;
 	margin-right: 46px;
 	padding-left: 78px;
 	display: block;
-	background:url(../images/yan.jpg) no-repeat 22px center;
+	background:url(../images/yan.png) no-repeat 22px center;
+		transition: 0.2s;
+	-moz-transition: 0.2s;	/* Firefox 4 */
+	-webkit-transition: 0.2s;	/* Safari 和 Chrome */
+	-o-transition: 0.2s;
 
 }
 .nav li.list3 a {
@@ -336,7 +353,11 @@ color: #ffd12f;
 	margin-right: 46px;
 	padding-left: 78px;
 	display: block;
-	background:url(../images/shu.jpg) no-repeat 22px center;
+	background:url(../images/shu.png) no-repeat 22px center;
+		transition: 0.2s;
+	-moz-transition: 0.2s;	/* Firefox 4 */
+	-webkit-transition: 0.2s;	/* Safari 和 Chrome */
+	-o-transition: 0.2s;
 	
 }
 .nav li.list5 a {
@@ -345,58 +366,49 @@ color: #ffd12f;
 	
 	padding-left: 78px;
 	display: block;
-	background:url(../images/cui.jpg) no-repeat 22px center;
+	background:url(../images/cui.png) no-repeat 22px center;
+		transition: 0.2s;
+	-moz-transition: 0.2s;	/* Firefox 4 */
+	-webkit-transition: 0.2s;	/* Safari 和 Chrome */
+	-o-transition: 0.2s;
 	
-}
-.nav li a:hover {
-text-decoration: underline;
 }
 .ziti{
 	width: 100%;
 	min-width: 1200px;
-	height: 346px;
+	height: 292px;
 }
 .leftfr{
-	position: fixed;
-	right: 0px;
-	top: 50%;
-	width: 212px;
-	padding-left: 43px;
-	margin-top: -260px;
-	height: 523px;
+width: 184px;
+	height:370px;
 	background: url(../images/leftfixed.png) no-repeat 0 0;
+}
+.space70{
+	height:70px;
+}
+.space10{
+	height:10px;
 }
 .dow{
 	display: block;
-	width: 180px;
-	height: 90px;
-	margin-top: 95px;
-	margin-bottom: 36px;
-
+	width: 184px;
+	height: 70px;
 }
 .aw{
 	display: block;
-	width: 180px;
-	height: 48px;
+	width: 184px;
+	height: 36px;
 }
 .topfh{
 	display: block;
-	width: 180px;
+	width: 184px;
 	height: 48px;
-}
-.close1{
-	display: block;
-	margin-left: 76px;
-	width: 31px;
-	height: 31px;
-	margin-top: 40px;
-
 }
 .pic1{
 	position: relative;
 
-	padding-top: 35px;
-	left: 140px;
+	padding-top: 24px;
+	left: 90px;
 }
 .banner .com_width{
 	position: relative;
@@ -404,9 +416,47 @@ text-decoration: underline;
 .zu1{
 	position: absolute;
 	height: 95px;
-	left: 23px;
-	bottom: -11px;
-	z-index: 999;
+	left: 75px;
+	bottom: -20px;
+	z-index: 9;
 	
 	width: 370px;
 }
+.space115{
+	height:98px;
+}
+.btbg{
+	position: relative;
+	width:770px;
+	margin:0 auto;
+}
+.biaoti{
+	width:770px;
+	margin:0 auto;
+	padding-left:148px;
+	z-index:99;
+}
+/*crystal*/
+#crystal{position: absolute;left: 128px;bottom: -10px;width:700px; height:150px;}
+#crystal_01,#crystal_02,#crystal_03{width:700px; height:150px;position: absolute;left: 0;bottom: 0;z-index:9;}
+#crystal_01{ background:url(../images/crystal_01.png) repeat-y;}
+#crystal_02{background:url(../images/crystal_02.png) repeat-y;}
+#crystal_03{background:url(../images/crystal_03.png) repeat-y;}
+
+/* 3D轮播图 */
+.w1200bg{
+	height:590px;
+	background:url(../images/bglunbo.jpg) repeat-y;
+}
+div.orbit-wrapper { position: relative; overflow: visible; width: 1200px;height: 500px;margin:0 auto;}
+div.orbit { position: relative; overflow: hidden;}
+div.orbit span { display:none;}
+div.orbit a img{ position: absolute; display:block;width: 194px; box-shadow: 0 3px 8px rgba(0,0,0,0.5); }
+div.orbit-wrapper h4{ display: none; }
+div.timer {display: none;}
+div.slider-nav { display: block; }
+div.slider-nav span { width: 40px; height: 120px;  color: #fff; text-align: center; position: absolute; z-index: 100; top: 310px; cursor: pointer; text-indent:-9999px;}
+div.slider-nav span.right { right: 180px; background:url(../images/slider_right.jpg); }
+div.slider-nav span.left { left:196px;background:url(../images/slider_left.jpg); }
+div.slider-nav span.right:hover {background:url(../images/slider_right.jpg) bottom; }
+div.slider-nav span.left:hover {background:url(../images/slider_left.jpg) bottom; }
