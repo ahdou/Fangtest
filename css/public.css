@@ -210,7 +210,7 @@ height: 139px;
 margin: 0 auto;
 }
 .section6 .txt {
-width: 465px;
+width: 430px;
 font-size: 20px;
 color: #f0f0f0;
 margin-top: 13px;
@@ -345,7 +345,7 @@ font-size: 18px;
 .nav li.list3 a {
 	width: 288px;
 	display: block;
-	margin-right: 72px;
+	margin-right: 18px;
 }
 .nav li.list4 a {
 	
@@ -446,7 +446,7 @@ width: 184px;
 /* 3D轮播图 */
 .w1200bg{
 	height:590px;
-	background:url(../images/bglunbo.jpg) repeat-y;
+	background:url(../images/bglunbo.jpg) no-repeat center;
 }
 div.orbit-wrapper { position: relative; overflow: visible; width: 1200px;height: 500px;margin:0 auto;}
 div.orbit { position: relative; overflow: hidden;}
