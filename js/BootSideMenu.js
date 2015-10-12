@@ -150,7 +150,7 @@ function doAnimation(container, containerWidth, sidebarSide, sidebarStatus){
 			toggleArrow(toggler, "left");
 		}else if(sidebarSide=="right"){
 			container.animate({
-				right:- (containerWidth +2)
+				right:- (containerWidth -20)
 			});
 			toggleArrow(toggler, "right");
 		}
