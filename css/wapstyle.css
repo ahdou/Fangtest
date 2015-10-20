@@ -65,6 +65,8 @@ html,body{
 0%   {opacity: 0}
 50%  {opacity: 1}
 100% {opacity: 0}
+
+
 }
 @-webkit-keyframes arrowdown
 {
@@ -92,6 +94,9 @@ h1 span{
 	cursor: pointer;
 	position: absolute;
 	margin: 0 auto;	
+}
+.section_txt p{
+	margin:2px auto;
 }
 .anim_secbtn{
 	-webkit-box-shadow: 0 0 0 4px #cff09e, 0 0 0 1px #f1f200;
