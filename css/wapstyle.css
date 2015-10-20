@@ -1,7 +1,7 @@
 html,body{
 	margin: 0;
 	padding: 0;
-	font-family: "微软雅黑"，"苹方";
+	font-family: "微软雅黑","苹方",DroidSansFallback;
 	color: #fff;
 }
 /*框架*/
@@ -76,12 +76,40 @@ h1 span{
 	background-size:70%;
 	background-position:center;
 	background-repeat:no-repeat;
-	border:2px solid #fff;
-	border-radius:8px;
 	cursor: pointer;
 	position: absolute;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
+.anim_secbtn{
+	-webkit-box-shadow: 0 0 0 4px #cff09e, 0 0 0 1px #f1f200;
+  	box-shadow: 0 0 0 4px #cff09e, 0 0 0 1px #f1f200;
+  	border-radius: 8px;
+  	-webkit-animation: secbtn 1.2s alternate infinite;
+  	animation: secbtn 1.2s alternate infinite;
+}
+@keyframes secbtn
+{
+	0%   {
+		-webkit-box-shadow: 0 0 0 4px #cff09e, 0 0 0 1px #f1f200;
+  	box-shadow: 0 0 0 2px #cff09e, 0 0 0 1px #f1f200;
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 2px #cff09e, 0 0 0 6px #f1f200;
+  	box-shadow: 0 0 0 2px #cff09e, 0 0 0 6px #f1f200;
+	}
+}
+@-webkit-keyframes secbtn
+{
+	0%   {
+		-webkit-box-shadow: 0 0 0 4px #cff09e, 0 0 0 1px #f1f200;
+  	box-shadow: 0 0 0 2px #cff09e, 0 0 0 1px #f1f200;
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 2px #cff09e, 0 0 0 6px #f1f200;
+  	box-shadow: 0 0 0 2px #cff09e, 0 0 0 6px #f1f200;
+	}
+}
+
 .c_f1f200{
 	color: #f1f200;
 }
