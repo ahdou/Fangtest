@@ -144,12 +144,14 @@ h1 span{
 	}
 	h1{
 		font-size:1.4em;
-		  -webkit-margin-before: 0.5em;
-  -webkit-margin-after: 0.5em;
+		-webkit-margin-after: 0.5em;
 	}
 	h3{
 		font-size:0.8em;
 		-webkit-margin-before: 0.5em;
 		-webkit-margin-after: 0.5em;
+	}
+	.section_txt{
+		font-size:0.9em;
 	}
 }
