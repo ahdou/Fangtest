@@ -66,6 +66,20 @@ h3{
 	letter-spacing:6px;
 	line-height:26px;
 }
+.jqbtn{
+	display:block;
+	margin-top:20px;
+	padding:10px 15px;
+	background:#333;
+	border-radius:10px;
+	width:100px;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+}
+.jqbtn:hover{
+	background:#202020;
+}
 .c_fff{
 	color:#fff;
 }
