@@ -206,19 +206,27 @@ header{
 @keyframes scrolltip
 {
 0%   {height:3px}
-50%  {height:5px}
 100% {height:8px}
 }
 @-webkit-keyframes scrolltip
 {
 0%   {height:5px}
-50%  {height:8px}
 100% {height:12px}
 }
-/* for  < 1300px  适配笔记本*/
-@media screen and (max-width:1300px) {
+
+/* for  < 1366px  适配笔记本*/
+@media screen and (max-width:1366px) {
+	.section_img{
+	padding-top:120px;
+}
+.section_container{
+	padding-top:120px;
+}
+.section_txt{
+	margin-top:60px;
+}
 	.w_center{
-		width:95%;
+		width:85%;
 	}
 	.section_container{
 		margin-left:20px;
@@ -240,32 +248,6 @@ header{
 	}
 	h1 em{
 		display:none;
-	}
-}
-
-/* for  < 1138px  适配笔记本*/
-@media screen and (max-width:1138px) {
-	.section_container{
-		width:40%;
-	}
-	h1{
-		font-size:2.55em;
-	}
-	h3{
-		font-size:1em;
-		margin-top:15px;
-	}
-	#navBar{
-		width:20px;
-		height:126px;
-		border:1px solid #fff;
-	}
-	#navBar li{
-		width:10px;
-		height:10px;
-	}
-	h1 span{
-		display:block;
 	}
 }
 
@@ -306,32 +288,26 @@ header{
 	h1 em{
 		display:none;
 	}
+	.section_img{
+		padding-top:20px;
+	}
+	.section_container{
+		padding-top:20px;
+		width: 80%;
+	}
+	h1{
+		font-size:2em;
+	}
+	h3{
+		font-size:1.2em;
+	}
+	h1 span{
+		display:none;
+	}
 }
 /* for  < 640px  适配iphone 5s*/
 @media screen and (max-width:640px) {
-	.section_img{
-		width:70%;
-		padding-top:50px;
-	}
-	.section_container{
-		width:80%;
-		margin-top:50px;
-	}	
-}
-
-/* for  < 480px  适配其他手机*/
-@media screen and (max-width:640px) {
-	h1{
-		font-size:1.9em;
-		letter-spacing:3px;
-	}
-	h3{
-		font-size:0.9em;
-		letter-spacing:1px;
-	}
-	.section_txt{
-		margin-top:40px;
-	}
+	
 }
 
 
